@@ -1,0 +1,31 @@
+<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="skin" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFD1DC;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFB6C1;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#161b22;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0d1117;stop-opacity:1" />
+    </linearGradient>
+     <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4facfe;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00f2fe;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background Circle -->
+  <circle cx="200" cy="200" r="200" fill="url(#bg)" />
+  
+  <!-- Abstract Avatar Base -->
+  <circle cx="200" cy="180" r="70" fill="url(#skin)" />
+  <path d="M 100 350 Q 200 450 300 350 L 300 400 L 100 400 Z" fill="url(#accent)" opacity="0.8"/>
+  <path d="M 100 350 C 100 250, 300 250, 300 350" fill="url(#skin)" />
+  
+  <!-- Glass Effect Overlay -->
+  <circle cx="200" cy="200" r="190" fill="none" stroke="url(#accent)" stroke-width="4" opacity="0.5" />
+  
+  <!-- Initials -->
+  <text x="50%" y="90%" dominant-baseline="middle" text-anchor="middle" font-family="'Inter', sans-serif" font-size="24" fill="#8b949e" font-weight="600">UJ</text>
+  
+</svg>
