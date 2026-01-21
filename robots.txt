@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://ujjvalbhatti.netlify.app/sitemap.xml
